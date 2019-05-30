@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa927650-110b-4d62-b4c7-5b82bf13deb5" name="Default Changelist" comment="" />
+    <list default="true" id="aa927650-110b-4d62-b4c7-5b82bf13deb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/covata/marsroversproblem/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/covata/marsroversproblem/Run.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,26 +24,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="41" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3346" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="4574" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3346" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="JAVA" value="4574" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -49,60 +54,69 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Facing.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+                <state relative-caret-position="289">
+                  <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/InputParser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Rover.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-284">
+                  <caret line="22" column="25" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#390#391#0" expanded="true" />
+                    <element signature="e#421#422#0" expanded="true" />
+                    <element signature="e#512#513#0" expanded="true" />
+                    <element signature="e#560#561#0" expanded="true" />
+                    <element signature="e#653#654#0" expanded="true" />
+                    <element signature="e#702#703#0" expanded="true" />
+                    <element signature="e#1066#1067#0" expanded="true" />
+                    <element signature="e#1144#1145#0" expanded="true" />
+                    <element signature="e#1735#1736#0" expanded="true" />
+                    <element signature="e#1777#1778#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Facing.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/ControlRover.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/RoverTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="141">
-                  <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+                <state relative-caret-position="328">
+                  <caret line="61" selection-start-line="61" selection-end-line="61" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PositionTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#158#159#0" expanded="true" />
-                    <element signature="e#225#226#0" expanded="true" />
-                    <element signature="e#420#421#0" expanded="true" />
-                    <element signature="e#504#505#0" expanded="true" />
-                    <element signature="e#333#334#0" expanded="true" />
-                    <element signature="e#418#419#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PlateauTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#371#372#0" expanded="true" />
+                    <element signature="e#402#403#0" expanded="true" />
+                    <element signature="e#495#496#0" expanded="true" />
+                    <element signature="e#527#528#0" expanded="true" />
+                    <element signature="e#2342#2343#0" expanded="true" />
+                    <element signature="e#2395#2396#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -120,44 +134,13 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Rover.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PlateauTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+                <state relative-caret-position="34">
+                  <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="42" />
                   <folding>
-                    <element signature="e#283#284#0" expanded="true" />
-                    <element signature="e#314#315#0" expanded="true" />
-                    <element signature="e#463#464#0" expanded="true" />
-                    <element signature="e#512#513#0" expanded="true" />
-                    <element signature="e#356#357#0" expanded="true" />
-                    <element signature="e#434#435#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Position.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-                  <folding>
-                    <element signature="e#1559#1560#0" expanded="true" />
-                    <element signature="e#1608#1609#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -168,28 +151,28 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
                   <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#268#269#0" expanded="true" />
-                    <element signature="e#321#322#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/InputParser.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Position.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="17">
+                  <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
           </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/ControlRoverTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+                <state relative-caret-position="425">
+                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -213,6 +196,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -229,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Rover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/ControlRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/ControlRover.java" />
       </list>
     </option>
   </component>
@@ -240,10 +228,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="width" value="1912" />
-    <option name="height" value="1167" />
+    <option name="x" value="187" />
+    <option name="y" value="28" />
+    <option name="width" value="1623" />
+    <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -313,7 +303,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558663815220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559183546296" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -330,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="JUnit.ControlRoverTest.shouldGetResults">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.covata.marsroversproblem.Run" />
       <module name="marsroversproblem" />
@@ -340,6 +330,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlRoverTest.shouldGetResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marsroversproblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.covata.marsroversproblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.covata.marsroversproblem" />
+      <option name="MAIN_CLASS_NAME" value="com.covata.marsroversproblem.ControlRoverTest" />
+      <option name="METHOD_NAME" value="shouldGetResults" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,22 +360,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.covata.marsroversproblem" />
       <option name="MAIN_CLASS_NAME" value="com.covata.marsroversproblem.InputParserTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputParserTest.shouldGetNullIfInvalidPlateauInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marsroversproblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.covata.marsroversproblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.covata.marsroversproblem" />
-      <option name="MAIN_CLASS_NAME" value="com.covata.marsroversproblem.InputParserTest" />
-      <option name="METHOD_NAME" value="shouldGetNullIfInvalidPlateauInput" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,19 +395,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InputParserTest.shouldGetNullIfInvalidPlateauInput" />
       <item itemvalue="Application.Run" />
       <item itemvalue="JUnit.RoverTest.shouldValidateCommand" />
       <item itemvalue="JUnit.InputParserTest" />
       <item itemvalue="JUnit.com.covata.marsroversproblem in marsroversproblem" />
+      <item itemvalue="JUnit.ControlRoverTest.shouldGetResults" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run" />
+        <item itemvalue="JUnit.ControlRoverTest.shouldGetResults" />
         <item itemvalue="JUnit.com.covata.marsroversproblem in marsroversproblem" />
+        <item itemvalue="Application.Run" />
         <item itemvalue="JUnit.InputParserTest" />
         <item itemvalue="JUnit.RoverTest.shouldValidateCommand" />
-        <item itemvalue="JUnit.InputParserTest.shouldGetNullIfInvalidPlateauInput" />
       </list>
     </recent_temporary>
   </component>
@@ -435,35 +425,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputParserTest_shouldGetPosition - 2019.05.24 at 10h 51m 34s.xml">
-      <configuration name="InputParserTest.shouldGetPosition" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 27m 44s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest_shouldGetPosition - 2019.05.24 at 10h 51m 41s.xml">
-      <configuration name="InputParserTest.shouldGetPosition" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 28m 35s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest_shouldGetPosition - 2019.05.24 at 10h 51m 50s.xml">
-      <configuration name="InputParserTest.shouldGetPosition" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 28m 44s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest_shouldGetPosition - 2019.05.24 at 10h 52m 02s.xml">
-      <configuration name="InputParserTest.shouldGetPosition" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 28m 54s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest_shouldGetPosition - 2019.05.24 at 10h 52m 12s.xml">
-      <configuration name="InputParserTest.shouldGetPosition" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 29m 07s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest_shouldGetNullIfInvalidPlateauInput - 2019.05.24 at 10h 53m 18s.xml">
-      <configuration name="InputParserTest.shouldGetNullIfInvalidPlateauInput" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 29m 34s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoverTest_shouldValidateCommand - 2019.05.24 at 11h 11m 14s.xml">
-      <configuration name="RoverTest.shouldValidateCommand" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 30m 05s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoverTest_shouldValidateCommand - 2019.05.24 at 11h 11m 39s.xml">
-      <configuration name="RoverTest.shouldValidateCommand" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 30m 14s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.05.24 at 11h 16m 22s.xml">
-      <configuration name="InputParserTest" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 30m 32s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_covata_marsroversproblem_in_marsroversproblem - 2019.05.24 at 12h 04m 34s.xml">
-      <configuration name="com.covata.marsroversproblem in marsroversproblem" configurationId="JUnit" />
+    <history-entry file="ControlRoverTest_shouldGetResults - 2019.05.30 at 12h 30m 43s.xml">
+      <configuration name="ControlRoverTest.shouldGetResults" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -475,15 +465,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32917467" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32917467" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.09168444" side_tool="true" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49840087" weight="0.32917467" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32917467" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90831554" visible="true" weight="0.32917467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,36 +509,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/RoverTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PositionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="368">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PlateauTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="255">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -565,17 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/PlateauTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Facing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/InputParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -583,52 +569,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/InputParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="17">
           <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="-284">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="25" />
           <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/covata/marsroversproblem/ControlRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/Facing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/covata/marsroversproblem/ControlRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
           </folding>
         </state>
       </provider>
