@@ -8,37 +8,37 @@ import java.util.Objects;
 public class Position {
     private int x;
     private int y;
-    private Facing facing;
+    private Direction direction;
 
-    public Position(int x, int y, Facing facing) {
+    public Position(int x, int y, Direction direction) {
         this.x = x;
         this.y = y;
-        this.facing = facing;
+        this.direction = direction;
     }
 
     //changes facing to left from current direction
     public Position rotateLeft() {
-        return new Position(x, y, facing.left());
+        return new Position(x, y, direction.left());
     }
 
     //changes facing to right from current direction
     public Position rotateRight() {
-        return new Position(x, y, facing.right());
+        return new Position(x, y, direction.right());
     }
 
     //moves one step forward in direction of facing
     public Position moveForward() {
-        switch (facing.toString()) {
+        switch (direction.toString()) {
             case "N":
-                return new Position(x, y+1, facing);
+                return new Position(x, y+1, direction);
             case "E":
-                return new Position(x+1, y, facing);
+                return new Position(x+1, y, direction);
             case "W":
-                return new Position(x-1, y, facing);
+                return new Position(x-1, y, direction);
             case "S":
-                return new Position(x, y-1, facing);
+                return new Position(x, y-1, direction);
             default:
-                throw new RuntimeException("Invalid Facing");
+                throw new RuntimeException("Invalid Direction");
         }
     }
     //checks if rovers position is within input (x, y) coordinates
@@ -52,7 +52,7 @@ public class Position {
 
     @Override
     public String toString() {
-        return x + " " + y + " " + facing;
+        return x + " " + y + " " + direction;
     }
 
     @Override
@@ -62,11 +62,11 @@ public class Position {
         Position position = (Position) o;
         return x == position.x &&
                 y == position.y &&
-                facing == position.facing;
+                direction == position.direction;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(x, y, facing);
+        return Objects.hash(x, y, direction);
     }
 }

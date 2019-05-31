@@ -16,9 +16,9 @@ public class PlateauTest {
 
     @Test
     public void shouldValidateCoordinates() {
-        Position position = new Position(1,2,Facing.NORTH);
+        Position position = new Position(1,2,Direction.getDirection("N"));
         assertTrue(plateau.isValidCoordinates(position));
-        position = new Position(5,6,Facing.NORTH);
+        position = new Position(5,6,Direction.getDirection("N"));
         assertFalse(plateau.isValidCoordinates(position));
     }
 }

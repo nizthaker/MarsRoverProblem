@@ -11,28 +11,28 @@ public class PositionTest {
 
     @Before
     public void setUp() {
-        position = new Position(1 ,2 ,Facing.NORTH);
+        position = new Position(1 ,2 ,Direction.getDirection("N"));
     }
 
     @Test
     public void shouldRotateLeft() {
-        assertEquals(position.rotateLeft(), new Position(1, 2, Facing.WEST));
+        assertEquals(position.rotateLeft(), new Position(1, 2, Direction.getDirection("W")));
     }
 
     @Test
     public void shouldRotateRight() {
-        assertEquals(position.rotateRight(), new Position(1, 2, Facing.EAST));
+        assertEquals(position.rotateRight(), new Position(1, 2, Direction.getDirection("E")));
     }
 
     @Test
     public void shouldMoveForward() {
-        assertEquals(position.moveForward(), new Position(1, 3, Facing.NORTH));
-        position = new Position(1, 2, Facing.EAST);
-        assertEquals(position.moveForward(), new Position(2, 2, Facing.EAST));
-        position = new Position(1, 2, Facing.WEST);
-        assertEquals(position.moveForward(), new Position(0, 2, Facing.WEST));
-        position = new Position(1, 2, Facing.SOUTH);
-        assertEquals(position.moveForward(), new Position(1, 1, Facing.SOUTH));
+        assertEquals(position.moveForward(), new Position(1, 3, Direction.getDirection("N")));
+        position = new Position(1, 2, Direction.getDirection("E"));
+        assertEquals(position.moveForward(), new Position(2, 2, Direction.getDirection("E")));
+        position = new Position(1, 2,Direction.getDirection("W"));
+        assertEquals(position.moveForward(), new Position(0, 2, Direction.getDirection("W")));
+        position = new Position(1, 2,Direction.getDirection("S"));
+        assertEquals(position.moveForward(), new Position(1, 1, Direction.getDirection("S")));
     }
 
     @Test

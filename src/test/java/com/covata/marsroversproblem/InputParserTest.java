@@ -21,7 +21,7 @@ public class InputParserTest {
     @Test
     public void shouldGetPosition() {
         String input = "1 2 N";
-        assertEquals(InputParser.parsePosition(input), new Position(1, 2, Facing.NORTH));
+        assertEquals(InputParser.parsePosition(input), new Position(1, 2, Direction.getDirection("N")));
     }
 
     @Test

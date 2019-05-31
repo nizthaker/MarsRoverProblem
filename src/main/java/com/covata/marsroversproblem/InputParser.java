@@ -19,8 +19,9 @@ public class InputParser {
             String[] positionArray = input.split(" ");
             int x = Integer.parseInt(positionArray[0]);
             int y = Integer.parseInt(positionArray[1]);
-            Facing facing = Facing.getFacing(positionArray[2]);
-            return new Position(x, y, facing);
+           // Facing facing = Facing.getFacing(positionArray[2]);
+            Direction direction = Direction.getDirection(positionArray[2]);
+            return new Position(x, y, direction);
         }
         return null;
     }

@@ -8,7 +8,7 @@ public class Run {
 
         //reads input commands from file
         File file = new File("input.txt");
-        ControlRover  controlRover = new ControlRover(file);
+        ControlRover controlRover = new ControlRover(file);
         try {
             System.out.println(controlRover.getResults());
         } catch (FileNotFoundException e) {
